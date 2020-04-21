@@ -1,6 +1,8 @@
 from matplotlib.pyplot import *
 from numpy import *
 
+print("Filter Gray...")
+
 #ouverture du fichier image   
 im1 = imread("./parrot.png")
 #on crée une nouvelle image de même taille que image d'origine 
@@ -14,7 +16,7 @@ for i in range(l):          # on balaie toutes les lignes
         
         im2[i,j,0] = val   #R
         im2[i,j,1] = val   #V 
-        im2[i,j,2] = val   #B
+        im2[i,j,2] = val   #B 
                 
 imshow(im2)
 show(im2.any())               # on affiche l'image 2
