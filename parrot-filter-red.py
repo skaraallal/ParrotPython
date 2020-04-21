@@ -1,5 +1,5 @@
 from matplotlib.pyplot import *
-from numpy import *’’’
+from numpy import *
 
 #ouverture du fichier image 
 im1 = imread("./parrot.png")
