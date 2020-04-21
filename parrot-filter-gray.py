@@ -1,7 +1,7 @@
 from matplotlib.pyplot import *
 from numpy import *
 
-#ouverture du fichier image 
+#ouverture du fichier image   
 im1 = imread("./parrot.png")
 #on crée une nouvelle image de même taille que image d'origine 
 (l,c,t) = shape(im1)
