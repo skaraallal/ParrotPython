@@ -1,7 +1,7 @@
 from matplotlib.pyplot import *
 from numpy import *
 
-print("Filter Gray...")
+print("Filter Gray 2...")
 
 #ouverture du fichier image   
 im1 = imread("./parrot.png")
